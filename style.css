@@ -1,6 +1,11 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+@font-face {
+    font-family: 'Custom Font';
+    src: url('YeZiGongChangJingHongXingKai/YeZiGongChangJingHongXingKai-2.ttf') format('truetype');
+    /* 添加更多的 src 属性以支持不同的字体格式（如 woff、woff2 等） */
+}
 .links {
-    font: small;
+    font-size: small;
     color: black;
     padding: 10px;
 }
@@ -31,7 +36,7 @@ p::selection {
 .foot {
     border-radius: 10px;
     background-color: skyblue;
-    border: 1px solid gray;
+    border: 1px solid rgb(128, 128, 128);
 }
 button:active {
     border: 2px solid rgb(36, 137, 144);
@@ -41,8 +46,7 @@ button:active {
     border-radius: 15px;
 }
 nav {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     width: 100%;
@@ -72,4 +76,27 @@ a::selection {
 
 .bounce:hover {
   animation: bounce 0.5s infinite;
+}
+#sp {
+    text-decoration: none;
+}
+.box {
+    display: table;
+    padding: 4px;
+    position :relative;
+    height: 100%;
+}
+.box-element {
+    font-family: "Custom Font", serif;
+    font-size: 25px;
+    display: table-cell;
+    vertical-align: baseline;
+    padding: 6px;
+    color: #3d689c;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
 }
