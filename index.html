@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" href="asset/架构.png" type="image/x-icon">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="asset/架构.png" rel="icon" type="image/x-icon">
     <title>Zank的html测试页</title>
     <script>
         // 页面获得焦点时的事件处理程序
@@ -18,59 +18,47 @@
         };
     </script>
 </head>
-
-<nav class="navigation">
-    <span>
-            <a href="https://yiyan.baidu.com/" target="_blank" id="sp">
+<body>
+<nav>
+    <a href="https://comment.zankblog.asia">
         <img
-                class="imgs"
-                src="https://pic.imgdb.cn/item/65001ac2661c6c8e54d9343a.jpg"
                 alt="加载失败"
+                class="imgs"
+                src="./asset/图层%203.png"
                 title="Zank的html测试页"
         />
     </a>
-    </span>
-
-    <span class="box">
-            <a
-                    class="box-element"
-                    href="https://cnblogs.com/Zankjavablog"
-                    target="_blank"
-            >博客园</a
-            >
-            <a
-                    class="box-element"
-                    href="https://space.bilibili.com/521643821"
-                    target="_blank"
-            >B站</a
-            >
-            <a
-                    class="box-element"
-                    href="https://blog.csdn.net/2201_75498908"
-                    target="_blank"
-            >CSDN</a
-            >
-            </span>
-
+    <a
+            href="https://cnblogs.com/Zankjavablog"
+            target="_blank"
+    >博客园</a
+    >
+    <a
+            href="https://space.bilibili.com/521643821"
+            target="_blank"
+    >B站</a
+    >
+    <a
+            href="https://blog.csdn.net/2201_75498908"
+            target="_blank"
+    >CSDN</a
+    >
+    <a
+            href="https://yiyan.baidu.com/"
+            target="_blank"
+    >文心一言</a>
+    <div class="animation"></div>
 </nav>
-<header>
-    <p id="introduction">这里是Zank的HTML实验测试,此为网站的简介。</p>
-</header>
 <aside>
-    <strong>InputMatching类:</strong>
-    <p>
-        我在其中包含了一些静态变量和静态方法。这些变量和方法用于匹配输入的字符串是否符合特定的格式要求。
-        代码中定义了6个正则表达式,分别用于匹配学号、姓名、课程名称、成绩等信息的格式要求。其中,stuNumMatching用于匹配8个数字,stuNameMatching用于匹配1到10个非空格字符,scoreMatching用于匹配0到100之间的数字,courseNameMatching用于匹配1到10个非空格字符,courseTypeMatching用于匹配“选修”或“必修”,checkCourseTypeMatching用于匹配“考试”或“考察”。
-        在这段代码中,courseInput和scoreInput1/scoreInput2分别用于定义课程信息和成绩信息的模式。matchingInput方法用于判断输入的字符串是属于哪种类型（课程信息或成绩信息）。matchingCourse和matchingScore方法分别用于判断输入的字符串是否符合课程信息和成绩信息的格式要求。</p>
+    <div>
+        <div></div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+        </ul>
+    </div>
 </aside>
-<main>
-    <strong>Curriculum类:</strong>
-    <p>
-        其中包含了四个成员变量和两个成员方法。这些变量和方法用于存储和处理课程信息和学生的成绩信息。
-        这段代码中,students、courseName、property、assessment和grades分别是学生列表、课程名称、课程属性、考核方式和成绩列表。
-        getCourseGrade方法用于计算并输出课程的平均成绩。它首先判断课程的property属性是否为空,如果为空,则直接返回。然后,根据课程的assessment属性来计算平均成绩。如果assessment属性为"考察",则需要计算所有学生的总成绩,并输出平均成绩；如果assessment属性为"考试",则需要计算所有学生的平时成绩、期末成绩和总成绩,并输出平均值；否则,输出错误信息。
-    </p>
-</main>
+
 <aside>
     <strong>SetShaderKeywords</strong><br/>
 
@@ -93,7 +81,7 @@
 </aside>
 <aside>
     <section>
-        <audio id="myAudio" controls>
+        <audio controls id="myAudio">
             <source src="asset/1.mp3" type="audio/mpeg">
         </audio>
 
@@ -118,4 +106,7 @@
         <button class="foot">快去学习吧</button>
     </a>
 </footer>
+</body>
+
+
 </html>
