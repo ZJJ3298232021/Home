@@ -1,17 +1,22 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @font-face {
     font-family: 'Custom Font';
     src: url('../YeZiGongChangJingHongXingKai/YeZiGongChangJingHongXingKai-2.ttf') format('truetype');
     /* 添加更多的 src 属性以支持不同的字体格式（如 woff、woff2 等） */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .image {
     width: 50px;
     height: 50px;
     vertical-align: bottom;
 }
-body {
-    background-color: #2c3e50;
-}
+/*body {*/
+/*    background-color: #2c3e50;*/
+/*    min-height: 100vh;*/
+/*}*/
 nav .animation {
     position: absolute;
     height: 100%;
@@ -25,7 +30,7 @@ nav .animation {
 }
 
 nav {
-    margin: 100px auto;
+    margin: 50px auto;
     position: relative;
     width: 500px;
     height: 50px;
@@ -64,4 +69,13 @@ a:nth-child(4):hover~.animation {
 a:nth-child(5):hover~.animation {
     left: 400px;
     background-color: #013972;
+}
+.app {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../asset/8bc7eafcfa7038bba5a1172a55351a79.jpg");
+    background-size: cover;
 }
