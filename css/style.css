@@ -79,3 +79,11 @@ a:nth-child(5):hover~.animation {
     background-image: url("../asset/8bc7eafcfa7038bba5a1172a55351a79.jpg");
     background-size: cover;
 }
+aside {
+    position: fixed;
+    height: 60vh;
+    width: 100px;
+    top: 20vh;
+    left: 0;
+    background-color: darkgray;
+}
