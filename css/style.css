@@ -3,6 +3,10 @@
     src: url('../YeZiGongChangJingHongXingKai/YeZiGongChangJingHongXingKai-2.ttf') format('truetype');
     /* 添加更多的 src 属性以支持不同的字体格式（如 woff、woff2 等） */
 }
+@font-face {
+    font-family: 方正舒体;
+    src: url("../寒蝉书体春秋/ChillCalligraphy_ChenFeng.otf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -80,4 +84,47 @@ a:nth-child(5):hover~.animation {
 html {
     overflow-y: scroll; /* 始终显示垂直滚动条 */
     overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+.content-box {
+    width: 100vw;
+    position: absolute;
+    background-color: #383f3c;
+}
+.content ul li{
+    margin: 50px;
+    position: relative;
+    left: 300px;
+}
+.content ul {
+    list-style-type: none;
+}
+.content ul li img {
+    height: 225px;
+    border-radius: 30px 0 0 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #666060;
+    margin: 50px 0 40px 0;
+    float: left; /* 使用 float 左浮动 */
+}
+
+.content ul li span {
+    margin: 50px 0 0 0;
+    font-family: 方正舒体, serif;
+    color: #679e99;
+    width: 500px;
+    height: 225px;
+    float: left; /* 使用 float 左浮动 */
+    border: 1px solid #666060;
+    border-radius: 0 30px 30px 0;
+}
+.text {
+    margin: 20px;
+    font-size: 20px;
+}
+::first-letter {
+    font-size: 35px;
+}
+::selection {
+    background-color: transparent;
 }
