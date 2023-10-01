@@ -90,16 +90,20 @@ html {
     position: absolute;
     background-color: #383f3c;
 }
-.content ul li{
-    margin: 50px;
-    position: relative;
-    left: 300px;
+.content ul li {
+    display: flex; /* 将 li 元素设置为 flex 布局 */
+    align-items: flex-start; /* 设置垂直方向的对齐方式为顶部对齐，可根据需求调整 */
 }
 .content ul {
     list-style-type: none;
+    position: relative;
+    left: 300px;
+    margin: 50px;
 }
 .content ul li img {
+    display: flow;
     height: 225px;
+    width: auto;
     border-radius: 30px 0 0 30px;
     border-style: solid;
     border-width: 1px;
@@ -109,22 +113,35 @@ html {
 }
 
 .content ul li span {
-    margin: 50px 0 0 0;
-    font-family: 方正舒体, serif;
+    font-family: 华文仿宋, serif;
+    padding: 20px;
+    margin: 50px 250px 0 0;
+    font-size: 20px;
     color: #679e99;
     width: 500px;
     height: 225px;
     float: left; /* 使用 float 左浮动 */
     border: 1px solid #666060;
     border-radius: 0 30px 30px 0;
+    letter-spacing: 2px;
+    line-height: 38px;
 }
-.text {
-    margin: 20px;
-    font-size: 20px;
+span::first-letter {
+    font-family: 方正舒体, serif;
+    font-size: 45px;
 }
-::first-letter {
-    font-size: 35px;
-}
-::selection {
+footer {
+    width: 100vw;
+    height: 100px;
     background-color: transparent;
+    position: relative; /* 添加此属性以便让绝对定位的子元素相对于它进行定位 */
+}
+footer p {
+    color: #7aa095;
+    position: absolute;
+    bottom: 10px;
+    margin: auto; /* 让元素水平居中 */
+    left: 0; /* 让元素左侧与容器左侧对齐 */
+    right: 0; /* 让元素右侧与容器右侧对齐 */
+    text-align: center; /* 让文本垂直居中 */
 }
