@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Custom Font';
-    src: url('../YeZiGongChangJingHongXingKai/YeZiGongChangJingHongXingKai-2.ttf') format('truetype');
+    src: url('../font/YeZiGongChangJingHongXingKai/YeZiGongChangJingHongXingKai-2.ttf') format('truetype');
     /* 添加更多的 src 属性以支持不同的字体格式（如 woff、woff2 等） */
 }
 @font-face {
     font-family: 方正舒体;
-    src: url("../寒蝉书体春秋/ChillCalligraphy_ChenFeng.otf");
+    src: url("../font/寒蝉书体春秋/ChillCalligraphy_ChenFeng.otf");
 }
 * {
     margin: 0;
