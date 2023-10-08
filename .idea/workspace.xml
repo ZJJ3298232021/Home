@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="11th">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="12th" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +26,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZJJ3298232021"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bc67dcfd-42f6-44e8-82dd-219f35cf963f" />
+        <option name="url" value="git@github.com:ZJJ3298232021/Home.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,7 +130,7 @@
       <workItem from="1696232077956" duration="1560000" />
       <workItem from="1696525085895" duration="37000" />
       <workItem from="1696733663681" duration="1418000" />
-      <workItem from="1696774128665" duration="326000" />
+      <workItem from="1696774128665" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="A">
       <option name="closed" value="true" />
@@ -353,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696733692356</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="12th">
+      <option name="closed" value="true" />
+      <created>1696774464876</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1696774464876</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +417,7 @@
     <MESSAGE value="9th" />
     <MESSAGE value="10th" />
     <MESSAGE value="11th" />
-    <option name="LAST_COMMIT_MESSAGE" value="11th" />
+    <MESSAGE value="12th" />
+    <option name="LAST_COMMIT_MESSAGE" value="12th" />
   </component>
 </project>
