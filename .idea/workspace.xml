@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="11th" />
+    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="11th">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +118,8 @@
       <workItem from="1696173273208" duration="350000" />
       <workItem from="1696232077956" duration="1560000" />
       <workItem from="1696525085895" duration="37000" />
+      <workItem from="1696733663681" duration="1418000" />
+      <workItem from="1696774128665" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="A">
       <option name="closed" value="true" />
@@ -340,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696525110850</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="11th">
+      <option name="closed" value="true" />
+      <created>1696733692356</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1696733692356</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +364,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
