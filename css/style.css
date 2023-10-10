@@ -145,3 +145,41 @@ footer p {
     right: 0; /* 让元素右侧与容器右侧对齐 */
     text-align: center; /* 让文本垂直居中 */
 }
+@media screen and (max-width: 768px) {
+    /* 在这里添加移动设备下的样式 */
+    nav {
+        /* 添加 flex 布局属性 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a {
+        /* 调整样式 */
+        font-size: 16px;
+        margin: 5px 0;
+        width: 80%;
+    }
+    .content ul li {
+        /* 修改样式为块级元素 */
+        display: block;
+    }
+    .content ul li img {
+        /* 调整样式 */
+        width: 100%;
+        height: auto;
+        border-radius: 30px 30px 0 0;
+        margin: 0;
+    }
+    .content ul li span {
+        /* 调整样式 */
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+        float: none;
+        border-radius: 0 0 30px 30px;
+        line-height: 28px;
+        font-size: 16px;
+        text-align: justify;
+    }
+}
