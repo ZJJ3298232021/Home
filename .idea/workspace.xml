@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="12th">
+    <list default="true" id="32579cf0-3328-4a31-bcf4-63c598a115ea" name="更改" comment="13th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bg5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bgQ.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bgQ.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bgY.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bgY.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bkg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bkg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bkg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bkg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/bkgX.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bkgX.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/图层 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/图层 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/架构.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/架构.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -137,7 +147,9 @@
       <workItem from="1696774128665" duration="348000" />
       <workItem from="1696774610911" duration="252000" />
       <workItem from="1696864398768" duration="924000" />
-      <workItem from="1696908296160" duration="324000" />
+      <workItem from="1696908296160" duration="886000" />
+      <workItem from="1696949117284" duration="65000" />
+      <workItem from="1697511245456" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="A">
       <option name="closed" value="true" />
@@ -387,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696774855557</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="13th">
+      <option name="closed" value="true" />
+      <created>1696908692723</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1696908692723</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +453,7 @@
     <MESSAGE value="10th" />
     <MESSAGE value="11th" />
     <MESSAGE value="12th" />
-    <option name="LAST_COMMIT_MESSAGE" value="12th" />
+    <MESSAGE value="13th" />
+    <option name="LAST_COMMIT_MESSAGE" value="13th" />
   </component>
 </project>

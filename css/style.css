@@ -78,7 +78,7 @@ a:nth-child(5):hover~.animation {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("../asset/bkg1.png");
+    background-image: url("../assets/bkg1.png");
     background-size: cover;
 }
 html {
@@ -181,5 +181,24 @@ footer p {
         line-height: 28px;
         font-size: 16px;
         text-align: justify;
+    }
+}
+.newWebsite {
+    position: absolute;
+    left: 48vw;
+    text-decoration: none;
+    color: #1ad19d;
+}
+.newWebsite:hover {
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 1.4s;
+}
+@keyframes bounce {
+    from {
+        rotate: 0;
+    }
+    to {
+        rotate: 360deg;
     }
 }
